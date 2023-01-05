@@ -1,0 +1,113 @@
+.topBer-phone-email {
+  display: flex;
+  justify-content: space-between;
+  width: 378px;
+}
+
+.topberWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topber {
+  background: #385dc7;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+.topberIcons a {
+  color: #ffffffad;
+  margin: 9px;
+}
+
+.topberIcons a:nth-child(3) {
+  color: white;
+}
+
+.topberIcons a:hover {
+  color: white;
+}
+
+
+.topBer-phone-email div i {
+  color: white;
+}
+
+.menuberWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+}
+
+.menuber {
+    background: white;
+    border-bottom: 1px solid;
+}
+
+.webLogo {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.navber {
+}
+
+.navber ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+.navber ul li {
+    padding: 15px 13px;
+}
+
+.navber ul li:first-child a {
+    color: #039b9b;
+    font-weight: bold;
+}
+
+.navber ul li a {
+    text-decoration: none;
+}
+
+.navber ul li a {
+    color: black;
+    font-family: ari;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navber ul li a::before {
+    position: absolute;
+    content: '';
+    background: #385dc7;
+    height: 3px;
+    width: 0;
+    bottom: -4px;
+    transition: 1s;
+}
+
+.topber > li, i {
+    font-size: 15px;
+}
+
+ul.topBer-phone-email {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.topBer-phone-email i {
+    padding-right: 5px;
+}
+
+ul.topBer-phone-email li {
+    font-size: 15px;
+}

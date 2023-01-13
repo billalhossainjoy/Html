@@ -111,3 +111,18 @@ ul.topBer-phone-email i {
 ul.topBer-phone-email li {
     font-size: 15px;
 }
+
+section.banner {
+    padding: 74px 0;
+}
+
+footer {
+    border-top: 1px solid;
+    background: #385dc7;
+    color: white;
+}
+
+
+footer {
+    padding: 87px 0;
+}

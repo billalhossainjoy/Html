@@ -179,11 +179,42 @@ h6 {
 .footer_Logo ul li:hover {
     top: -12px;
     background: blue;
-    transform: skew(10deg, 10deg);
 }
 
 
 
 .footer1.col-lg-3.col-md-6.col-sm-12 div h6 {
     font-weight: 400;
+}
+section.card {
+    padding: 120px 0;
+}
+
+.card-body:hover {
+    background: #385dc7;
+}
+
+.card-body:hover a, h3 {
+    color: white;
+}
+
+.card-body:hover h3.card-title {
+    color: white;
+}
+
+.card1.col-lg-3.col-md-2.col-sm-1:hover {
+    transform: scale(1.1);
+}
+
+.card1.col-lg-3.col-md-2.col-sm-1 {
+    transition: .4s;
+}
+
+.card h3 {
+    transition: .4s;
+}
+
+.card div p {
+    font-family: fangsong;
+    color: #858282;
 }

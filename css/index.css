@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+ul,li,a,p{
+  padding: 0;
+  margin: 0;
+}
+
+.topBer {
+  background: #39894a;
+  height: 40px;
+}
+
+ul.phone-email.list-unstyled {
+  color: white;
+  margin: 0px;
+  align-items: center;
+}
+
+ul.TopberscosialLinks.list-unstyled a i {
+  color: white;
+  font-size: 18px;
+}
+
+ul.TopberscosialLinks.list-unstyled li {align-items: center;}
+
+.topberWrapper ul li {
+  border-left: 1px solid #00000036;
+  padding: 8px;
+}
+
+ul.TopberscosialLinks.list-unstyled.d-flex {
+    margin: 0;
+    padding: 0;
+}
+
+ul.TopberscosialLinks.list-unstyled.d-flex li {
+    padding: 8px 18px;
+}
+
+
+.topBer.d-flex.align-items-center {
+    overflow: hidden !important;
+}
+
+ul.TopberscosialLinks.list-unstyled.d-flex li:last-child {
+    border-right: 1px solid #00000036;
+}
